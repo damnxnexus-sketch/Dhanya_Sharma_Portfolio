@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/Hero";
 import EthosSection from "./components/About";
 import ImpactStatsSection from "./components/Stats";
-
+import VisionCTASection from "./components/Vision";
 export default function Home() {
   return (
     <div>
@@ -10,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <EthosSection />
       <ImpactStatsSection />
+      <VisionCTASection />
     </div>
   );
 }
