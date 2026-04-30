@@ -73,7 +73,7 @@ export default function HeroSection() {
           <div className="relative rounded-[1.5rem] overflow-hidden shadow-[0_24px_64px_rgba(1,50,32,0.08)] bg-[#e4e2e1] aspect-[4/5] w-full">
             {/* Note: Replace src with Dhanya's actual high-res image path */}
             <Image 
-              src="/images/dhanya-hero-portrait.jpg" 
+              src="/dhanya.png" 
               alt="Dhanya Sharma - Founder of Gyanam Education"
               fill
               className="object-cover object-center"
