@@ -77,7 +77,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
             <Link
-              href="#contact"
+              href="/contact"
               className="bg-[#001b0f] text-white font-sans text-sm font-semibold px-6 py-3 rounded-lg shadow-md transition-all hover:bg-[#735c00] hover:shadow-lg hover:-translate-y-0.5"
             >
               Get in Touch
