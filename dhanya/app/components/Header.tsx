@@ -17,11 +17,11 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Programs', href: '#programs' },
-    { name: 'Impact', href: '#impact' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About', href: '/about' },
+    { name: 'Experience', href: '/experience' },
+    { name: 'Programs', href: '/programs' },
+    { name: 'Impact', href: '/impact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
