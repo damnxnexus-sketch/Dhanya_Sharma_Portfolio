@@ -139,7 +139,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="#contact"
+                href="/contact"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="bg-[#001b0f] text-white font-sans text-sm font-semibold px-6 py-3 rounded-lg shadow-md text-center mt-2 transition-all hover:bg-[#735c00]"
               >
