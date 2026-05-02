@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Dhanya Sharma - Gyanam Education Portfolio
 
-## Getting Started
+A modern, elegant portfolio website for Dr. Dhanya Sharma, Founder & CEO of Gyanam Education.
 
-First, run the development server:
+## 🌟 Features
+
+- **Modern Design**: Elegant UI with smooth animations and transitions
+- **Fully Responsive**: Optimized for mobile, tablet, and desktop
+- **SEO Optimized**: Comprehensive metadata and structured data for search engines
+- **Fast Performance**: Built with Next.js 16 and Tailwind CSS v4
+- **Accessible**: WCAG compliant with semantic HTML
+
+## 📄 Pages
+
+- **Home** (`/`) - Hero section with introduction and key highlights
+- **About** (`/about`) - Professional journey, expertise, and mission
+- **Experience** (`/experience`) - 15+ years career timeline and achievements
+- **Programs** (`/programs`) - 6 comprehensive medical education programs
+- **Impact** (`/impact`) - Success metrics and student testimonials
+- **Contact** (`/contact`) - Interactive contact form and information
+- **Principles** (`/principles`) - Core values and philosophy
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 16.2.4 (App Router)
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Fonts**: Noto Serif, Inter (Google Fonts)
+- **Icons**: Heroicons (SVG)
 
-## Learn More
+## 📦 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/
+│   ├── about/
+│   ├── contact/
+│   ├── experience/
+│   ├── impact/
+│   ├── principles/
+│   ├── programs/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Stats.tsx
+│   │   └── Vision.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── public/
+│   └── images/
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── tailwind.config.ts
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔍 SEO Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Optimized meta titles and descriptions
+- Open Graph tags for social sharing
+- Twitter Card metadata
+- Structured data (JSON-LD) for Person and Organization
+- Semantic HTML with proper heading hierarchy
+- Mobile-responsive design
+- Fast loading performance
 
-## Deploy on Vercel
+## 🎯 Key Highlights
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **50,000+** Students Empowered
+- **95%** Success Rate
+- **10+** Programs Created
+- **25+** Countries Reached
+- **15+** Years of Excellence
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Breakpoints
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/dhanya-sharma-portfolio)
+
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Deploy automatically
+
+### Environment Variables
+
+No environment variables required for basic deployment.
+
+## 📝 License
+
+© 2024 Dr. Dhanya Sharma - Gyanam Education. All rights reserved.
+
+## 🤝 Contact
+
+- **Email**: dhanya@gyanameducation.com
+- **Website**: [gyanameducation.com](https://gyanameducation.com)
+- **LinkedIn**: [linkedin.com/in/dhanyasharma](https://linkedin.com/in/dhanyasharma)
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
