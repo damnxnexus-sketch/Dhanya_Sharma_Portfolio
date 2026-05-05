@@ -4,6 +4,7 @@ import EthosSection from "./components/About";
 import ImpactStatsSection from "./components/Stats";
 import VisionCTASection from "./components/Vision";
 import Footer from "./components/Footer";
+import FounderProfileSection from "./components/Founder";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <EthosSection />
       <ImpactStatsSection />
+      <FounderProfileSection />
       <VisionCTASection />
       <Footer />
     </div>
