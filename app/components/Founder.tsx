@@ -31,7 +31,7 @@ export default function FounderProfileSection() {
             {/* SEO Optimized Paragraphs */}
             <div className="space-y-6 font-sans text-white/80 text-lg lg:text-xl leading-[1.7] max-w-2xl">
               <p>
-                In a system obsessed with rote memorization, Dhanya took a bold stand to redefine what success looks like for students in Delhi NCR. She is not just an educator; she is an architect of modern learning ecosystems.
+                In a system obsessed with rote memorization, Dhanya took a bold stand to redefine what success looks like for students in India & Overseas . She is not just an educator; she is an architect of modern learning ecosystems.
               </p>
               <p>
                 At the helm of{' '}
