@@ -56,7 +56,7 @@ export default function Header() {
                 Dhanya Sharma
               </span>
               <span className="font-sans text-[#717973] text-[0.625rem] font-medium tracking-[0.08em] uppercase mt-0.5">
-                MD, MBA
+                Top Educator & Entrepreneur
               </span>
             </div>
           </Link>
