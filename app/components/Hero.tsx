@@ -57,7 +57,7 @@ export default function HeroSection() {
             {/* Stat 3 */}
             <div className="flex flex-col gap-1">
               <span className="font-serif text-[2.25rem] font-semibold leading-[1.3] text-[#1b1c1c]">
-                15+
+                5+
               </span>
               <span className="font-sans text-[#717973] text-[0.75rem] font-semibold tracking-[0.05em] uppercase">
                 Years Experience
