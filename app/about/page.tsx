@@ -5,12 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About Dr. Dhanya Sharma | Founder of Gyanam Education | Medical Educator & Healthcare Leader",
-  description: "Learn about Dr. Dhanya Sharma, MD, MBA - Founder of Gyanam Education. A visionary medical educator, healthcare strategist, and leader transforming medical education globally with 15+ years of experience.",
-  keywords: "Dhanya Sharma, Gyanam Education founder, medical educator, healthcare leadership, MD MBA, medical education expert, clinical educator, healthcare innovation",
+  title: "About Dhanya Sharma | Founder & Visionary | Gyanam Education",
+  description: "Learn about Dhanya Sharma, the visionary founder of Gyanam Education. Discover her mission to revolutionize learning in Delhi NCR through student-first pedagogy and holistic mentorship.",
+  keywords: "Dhanya Sharma, Founder of Gyanam Education, educational reformer Delhi NCR, modern pedagogy, student-centric learning, holistic mentoring, education leadership India, stress-free education",
   openGraph: {
-    title: "About Dr. Dhanya Sharma | Founder of Gyanam Education",
-    description: "Visionary medical educator and founder of Gyanam Education, transforming healthcare education globally.",
+    title: "About Dhanya Sharma | Architect of Modern Education",
+    description: "Meet the founder of Gyanam Education, transforming the educational landscape with empathy and innovation.",
     type: "profile",
   },
 };
@@ -18,72 +18,67 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const milestones = [
     {
-      year: "2008",
-      title: "Medical Degree (MD)",
-      description: "Graduated with distinction, beginning a journey in clinical excellence and patient care.",
+      year: "The Observation",
+      title: "Identifying the Gaps",
+      description: "Recognized the growing burnout among students in traditional academic structures, sparking the need for a system built on empathy and cognitive growth.",
     },
     {
-      year: "2012",
-      title: "Clinical Practice",
-      description: "Established successful clinical practice, treating thousands of patients with compassionate care.",
+      year: "The Catalyst",
+      title: "Designing the Framework",
+      description: "Collaborated with educational psychologists and subject matter experts to design a curriculum that prioritizes conceptual clarity over rote memorization.",
     },
     {
-      year: "2015",
-      title: "MBA in Healthcare",
-      description: "Pursued business education to bridge clinical expertise with strategic healthcare management.",
+      year: "The Inception",
+      title: "Founding Gyanam Education",
+      description: "Launched Gyanam Education to bring this student-first ideology to life, breaking away from the toxic competitive culture of Delhi NCR.",
     },
     {
-      year: "2018",
-      title: "Founded Gyanam Education",
-      description: "Launched Gyanam Education to revolutionize medical education and empower future healthcare leaders.",
+      year: "The Impact",
+      title: "Empowering Thousands",
+      description: "Successfully guided thousands of students to not just academic excellence, but also mental resilience and clarity about their future careers.",
     },
     {
-      year: "2020",
-      title: "Global Expansion",
-      description: "Expanded programs internationally, impacting 50,000+ students across multiple countries.",
-    },
-    {
-      year: "2023",
-      title: "Top Educator Award",
-      description: "Recognized globally for innovation in medical education and transformative teaching methodologies.",
+      year: "The Future",
+      title: "Scaling the Vision",
+      description: "Continuously innovating digital and offline learning ecosystems to make premium, stress-free education accessible to every aspiring learner.",
     },
   ];
 
   const expertise = [
     {
-      title: "Clinical Medicine",
-      description: "Deep expertise in clinical practice with years of hands-on patient care experience.",
+      title: "Cognitive Pedagogy",
+      description: "Designing learning systems that align with how the modern student's brain actually processes and retains information.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-          <path fillRule="evenodd" d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm9 4.5a.75.75 0 00-1.5 0v5.69l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V8.25z" clipRule="evenodd" />
+          <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.758a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
         </svg>
       ),
     },
     {
-      title: "Educational Innovation",
-      description: "Pioneer in developing cutting-edge pedagogical methods for medical education.",
+      title: "Student Psychology",
+      description: "Deep understanding of adolescent pressure points, offering holistic mentorship to build unshakeable confidence.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-          <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
-          <path fillRule="evenodd" d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z" clipRule="evenodd" />
+          <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 00-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 01-.189-.866c0-.298.059-.605.189-.866zm2.023 6.828a.75.75 0 10-1.06-1.06 3.75 3.75 0 01-5.304 0 .75.75 0 00-1.06 1.06 5.25 5.25 0 007.424 0z" clipRule="evenodd" />
         </svg>
       ),
     },
     {
-      title: "Strategic Leadership",
-      description: "MBA-trained leader with expertise in healthcare business strategy and organizational growth.",
+      title: "Educational Strategy",
+      description: "Bridging the gap between traditional syllabus requirements and future-ready skill building.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-          <path fillRule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+          <path fillRule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM15 15.75a.75.75 0 01-.75.75h-6a.75.75 0 010-1.5h6a.75.75 0 01.75.75zm-9.75-9.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-3z" clipRule="evenodd" />
         </svg>
       ),
     },
     {
-      title: "Global Impact",
-      description: "International educator reaching students across continents with culturally adaptive programs.",
+      title: "Community Building",
+      description: "Fostering an inclusive ecosystem where educators, parents, and students collaborate for holistic growth.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-          <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+          <path fillRule="evenodd" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path fillRule="evenodd" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" clipRule="evenodd" />
         </svg>
       ),
     },
@@ -94,43 +89,53 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-[#fcf9f8] via-white to-[#fcf9f8]">
-        <div className="max-w-[1200px] mx-auto">
+      <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-[#fcf9f8] via-[#f3f0ef] to-[#fcf9f8] relative overflow-hidden">
+        {/* Abstract Background Elements */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#6f9c84]/10 blur-[100px] rounded-full pointer-events-none"></div>
+
+        <div className="max-w-[1200px] mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="bg-[#ffe088] text-[#574500] px-3 py-1.5 rounded-sm font-sans text-[0.75rem] font-semibold leading-none tracking-[0.05em] uppercase mb-6 inline-block shadow-sm">
-                About Dr. Dhanya Sharma
+              <div className="bg-white/80 backdrop-blur-sm border border-[#ffe088] text-[#574500] px-4 py-2 rounded-full font-sans text-[0.75rem] font-bold tracking-[0.05em] uppercase mb-6 inline-block shadow-sm">
+                The Architect of Gyanam
               </div>
-              <h1 className="font-serif text-[#1b1c1c] text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-[-0.02em] mb-6">
-                Transforming Healthcare Through <span className="text-[#735c00] italic font-normal">Education & Leadership</span>
+              <h1 className="font-serif text-[#1b1c1c] text-5xl lg:text-7xl font-bold leading-[1.1] tracking-[-0.02em] mb-6">
+                Rewriting the Rules of <span className="text-[#735c00] italic font-normal">Education</span>
               </h1>
-              <p className="font-sans text-[#414943] text-xl leading-[1.7] mb-8">
-                Dr. Dhanya Sharma is the visionary founder of <strong>Gyanam Education</strong>, a pioneering platform revolutionizing medical education globally. With an MD in Clinical Medicine and an MBA in Healthcare Management, she bridges clinical precision with strategic business acumen.
+              <p className="font-sans text-[#414943] text-lg lg:text-xl leading-[1.7] mb-8">
+                <strong>Dhanya Sharma</strong> is not just an educator; she is a disruptor. As the founder of <strong>Gyanam Education</strong>, she is dismantling the high-pressure factory model of learning in Delhi NCR and replacing it with an ecosystem built on empathy, strategy, and genuine intellectual growth.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
-                  href="/programs"
-                  className="bg-[#001b0f] text-white font-sans text-base font-semibold px-8 py-4 rounded-xl shadow-lg hover:bg-[#735c00] transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+                  href="#mission"
+                  className="bg-[#001b0f] text-white font-sans text-base font-semibold px-8 py-4 rounded-xl shadow-[0_8px_20px_rgba(0,27,15,0.2)] hover:bg-[#735c00] transition-all duration-300 hover:-translate-y-1"
                 >
-                  Explore Programs
+                  Discover the Mission
                 </Link>
                 <Link
                   href="/contact"
-                  className="bg-white border-2 border-[#001b0f] text-[#001b0f] font-sans text-base font-semibold px-8 py-4 rounded-xl hover:bg-[#fcf9f8] transition-all duration-300"
+                  className="bg-white/50 backdrop-blur-sm border-2 border-[#001b0f] text-[#001b0f] font-sans text-base font-semibold px-8 py-4 rounded-xl hover:bg-white transition-all duration-300"
                 >
-                  Get in Touch
+                  Connect with Dhanya
                 </Link>
               </div>
             </div>
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-[0_24px_64px_rgba(1,50,32,0.12)] aspect-[4/5] bg-[#e4e2e1]">
+            <div className="relative group">
+              <div className="relative rounded-[2rem] overflow-hidden shadow-[0_24px_64px_rgba(1,50,32,0.15)] aspect-[4/5] bg-[#e4e2e1] border border-white/50">
+                {/* Glow Effect behind image */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#001b0f]/60 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <Image
-                  src="/images/dhanya-about.jpg"
-                  alt="Dr. Dhanya Sharma - Founder of Gyanam Education"
+                  src="/dhanya.png"
+                  alt="Dhanya Sharma - Founder of Gyanam Education"
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                   priority
                 />
+                <div className="absolute bottom-6 left-6 right-6 z-20 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                  <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-xl p-4 text-white">
+                    <p className="font-serif italic text-lg">"Learning should inspire, not intimidate."</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -138,33 +143,35 @@ export default function AboutPage() {
       </section>
 
       {/* Journey Timeline */}
-      <section className="py-20 px-6 lg:px-8 bg-white">
+      <section className="py-24 px-6 lg:px-8 bg-white">
         <div className="max-w-[1200px] mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-serif text-[#1b1c1c] text-4xl lg:text-5xl font-semibold leading-[1.2] mb-6">
-              A Journey of <span className="text-[#735c00] italic font-normal">Excellence</span>
+          <div className="text-center mb-20">
+            <h2 className="font-serif text-[#1b1c1c] text-4xl lg:text-5xl font-bold leading-[1.2] mb-6">
+              The Genesis of <span className="text-[#735c00] italic font-normal">Gyanam</span>
             </h2>
             <p className="font-sans text-[#414943] text-lg leading-[1.7] max-w-2xl mx-auto">
-              From clinical practice to founding Gyanam Education, every milestone reflects a commitment to transforming healthcare education.
+              Building an educational institution wasn't a business decision; it was a response to a broken system. Here is how the vision evolved.
             </p>
           </div>
 
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#ffe088] via-[#735c00] to-[#001b0f] hidden lg:block"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#ffe088] via-[#735c00] to-[#001b0f] hidden lg:block rounded-full"></div>
 
-            <div className="space-y-12">
+            <div className="space-y-16">
               {milestones.map((milestone, index) => (
                 <div
                   key={index}
                   className={`flex flex-col lg:flex-row items-center gap-8 ${
                     index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-                  }`}
+                  } group`}
                 >
                   <div className={`flex-1 ${index % 2 === 0 ? "lg:text-right" : "lg:text-left"}`}>
-                    <div className="bg-white rounded-xl p-6 shadow-[0_8px_32px_rgba(1,50,32,0.08)] hover:shadow-[0_16px_48px_rgba(1,50,32,0.12)] transition-all duration-300">
-                      <span className="font-serif text-[#735c00] text-3xl font-bold">{milestone.year}</span>
-                      <h3 className="font-serif text-[#1b1c1c] text-2xl font-semibold mt-2 mb-3">
+                    <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-100 shadow-[0_8px_32px_rgba(1,50,32,0.04)] group-hover:shadow-[0_20px_50px_rgba(1,50,32,0.1)] transition-all duration-500 group-hover:-translate-y-2">
+                      <span className="inline-block bg-[#ffe088]/20 text-[#735c00] font-sans text-xs font-bold px-3 py-1 rounded-md uppercase tracking-widest mb-3">
+                        {milestone.year}
+                      </span>
+                      <h3 className="font-serif text-[#1b1c1c] text-3xl font-bold mb-3">
                         {milestone.title}
                       </h3>
                       <p className="font-sans text-[#414943] text-base leading-[1.7]">
@@ -172,7 +179,10 @@ export default function AboutPage() {
                       </p>
                     </div>
                   </div>
-                  <div className="hidden lg:block w-6 h-6 bg-[#ffe088] rounded-full border-4 border-white shadow-lg z-10"></div>
+                  {/* Timeline Dot */}
+                  <div className="hidden lg:flex items-center justify-center w-8 h-8 bg-[#001b0f] rounded-full border-4 border-white shadow-[0_0_15px_rgba(115,92,0,0.5)] z-10 group-hover:scale-125 transition-transform duration-300">
+                    <div className="w-2 h-2 bg-[#ffe088] rounded-full"></div>
+                  </div>
                   <div className="flex-1"></div>
                 </div>
               ))}
@@ -182,11 +192,11 @@ export default function AboutPage() {
       </section>
 
       {/* Expertise Section */}
-      <section className="py-20 px-6 lg:px-8 bg-[#fcf9f8]">
+      <section className="py-24 px-6 lg:px-8 bg-[#fcf9f8]">
         <div className="max-w-[1200px] mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-[#1b1c1c] text-4xl lg:text-5xl font-semibold leading-[1.2] mb-6">
-              Areas of <span className="text-[#735c00] italic font-normal">Expertise</span>
+            <h2 className="font-serif text-[#1b1c1c] text-4xl lg:text-5xl font-bold leading-[1.2] mb-6">
+              Pillars of <span className="text-[#735c00] italic font-normal">Expertise</span>
             </h2>
           </div>
 
@@ -194,12 +204,12 @@ export default function AboutPage() {
             {expertise.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-[0_8px_32px_rgba(1,50,32,0.06)] hover:shadow-[0_16px_48px_rgba(1,50,32,0.12)] transition-all duration-300 hover:-translate-y-2 text-center"
+                className="bg-white rounded-[1.5rem] p-8 border border-white/50 shadow-[0_8px_32px_rgba(1,50,32,0.04)] hover:shadow-[0_24px_64px_rgba(1,50,32,0.12)] transition-all duration-500 hover:-translate-y-2 group"
               >
-                <div className="bg-gradient-to-br from-[#001b0f] to-[#735c00] p-4 rounded-xl text-white inline-block mb-6">
+                <div className="bg-gradient-to-br from-[#fcf9f8] to-[#ffe088]/30 p-4 rounded-xl text-[#735c00] inline-block mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
                   {item.icon}
                 </div>
-                <h3 className="font-serif text-[#1b1c1c] text-xl font-semibold mb-3">{item.title}</h3>
+                <h3 className="font-serif text-[#1b1c1c] text-xl font-bold mb-3">{item.title}</h3>
                 <p className="font-sans text-[#414943] text-sm leading-[1.7]">{item.description}</p>
               </div>
             ))}
@@ -208,17 +218,25 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Statement */}
-      <section className="py-20 px-6 lg:px-8 bg-[#001b0f] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#735c00]/10 via-transparent to-transparent pointer-events-none"></div>
+      <section id="mission" className="py-24 px-6 lg:px-8 bg-[#001b0f] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#735c00]/20 via-transparent to-transparent pointer-events-none"></div>
+        
+        {/* Glow effect */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#ffe088]/5 blur-[120px] rounded-full pointer-events-none"></div>
+
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="font-serif text-white text-4xl lg:text-5xl font-semibold leading-[1.2] mb-8">
-            Mission & Vision
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-16 h-16 text-[#ffe088] mx-auto mb-8 opacity-80">
+            <path fillRule="evenodd" d="M12.971 1.816A5.208 5.208 0 0014.39 5.2v.001c0 1.942-1.129 3.65-2.83 4.475M12.97 1.816c-.035.034-.07.069-.104.105l-5.18 5.433a2.646 2.646 0 00-.737 1.844v.534A2.625 2.625 0 009.574 12.3h2.385a2.625 2.625 0 002.593-2.22l.536-3.418c.038-.242.062-.486.062-.731A5.209 5.209 0 0012.97 1.816zM12 14.25a3.375 3.375 0 100-6.75 3.375 3.375 0 000 6.75zM12 15a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75z" clipRule="evenodd" />
+          </svg>
+
+          <h2 className="font-serif text-white text-4xl lg:text-5xl font-bold leading-[1.2] mb-8">
+            The Ultimate <span className="text-[#ffe088] italic font-normal">Mission</span>
           </h2>
-          <p className="font-sans text-white/90 text-xl leading-[1.8] mb-6">
-            "To empower the next generation of healthcare professionals with world-class education, ethical leadership, and the tools to create meaningful impact in global health."
+          <p className="font-serif text-white/95 text-2xl lg:text-3xl leading-[1.6] italic mb-10">
+            "Education should build minds, not just transcripts. We are here to create an environment where a student's mental well-being and academic success go hand in hand."
           </p>
-          <p className="font-sans text-white/80 text-lg leading-[1.7]">
-            Through Gyanam Education, Dr. Sharma has impacted over 50,000 students worldwide, creating innovative programs that blend clinical excellence with strategic thinking, preparing healthcare leaders for the challenges of tomorrow.
+          <p className="font-sans text-white/80 text-lg leading-[1.7] max-w-2xl mx-auto">
+            Under her leadership, Gyanam Education is setting a new benchmark in the Delhi NCR region, proving that stress-free learning is not a myth, but a highly effective reality.
           </p>
         </div>
       </section>
