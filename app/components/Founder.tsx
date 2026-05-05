@@ -73,7 +73,7 @@ export default function FounderProfileSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#001b0f] via-transparent to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
               
               <img 
-                src="/images/dhanya-sharma-founder.jpg" 
+                src="dhanya.png" 
                 alt="Dhanya Sharma - Founder of Gyanam Education" 
                 className="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
               />
