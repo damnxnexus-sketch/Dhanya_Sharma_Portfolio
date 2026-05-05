@@ -121,7 +121,7 @@ No environment variables required for basic deployment.
 
 ## 📝 License
 
-© 2024 Dr. Dhanya Sharma - Gyanam Education. All rights reserved.
+
 
 ## 🤝 Contact
 
