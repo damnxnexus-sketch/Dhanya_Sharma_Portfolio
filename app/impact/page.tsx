@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Impact & Success Stories | Gyanam Education | Dr. Dhanya Sharma",
-  description: "Discover the transformative impact of Gyanam Education founded by Dr. Dhanya Sharma. 50,000+ students empowered, 95% success rate, and global recognition in medical education.",
+  title: "Impact & Success Stories | Gyanam Education | Dhanya Sharma",
+  description: "Discover the transformative impact of Gyanam Education founded by Dhanya Sharma. 50,000+ students empowered, 95% success rate, and global recognition in medical education.",
   keywords: "Gyanam Education impact, medical education success stories, Dhanya Sharma achievements, student testimonials, medical exam results, healthcare education outcomes",
   openGraph: {
     title: "Impact & Success Stories | Gyanam Education",
@@ -83,7 +83,7 @@ export default function ImpactPage() {
       name: "Dr. Rahul Verma",
       role: "NEET AIR 47",
       program: "NEET Excellence Program",
-      quote: "Dr. Dhanya Sharma's teaching methodology at Gyanam Education is unparalleled. The structured approach, personalized mentorship, and comprehensive study materials helped me secure AIR 47 in NEET. Forever grateful!",
+      quote: "Dhanya Sharma's teaching methodology at Gyanam Education is unparalleled. The structured approach, personalized mentorship, and comprehensive study materials helped me secure AIR 47 in NEET. Forever grateful!",
       image: "/images/testimonial-1.jpg",
     },
     {
@@ -146,7 +146,7 @@ export default function ImpactPage() {
             Transforming Lives Through <span className="text-[#735c00] italic font-normal">Education</span>
           </h1>
           <p className="font-sans text-[#414943] text-xl leading-[1.7] max-w-3xl mx-auto">
-            Since founding Gyanam Education, Dr. Dhanya Sharma has empowered over 50,000 students worldwide, creating measurable impact in medical education and healthcare leadership.
+            Since founding Gyanam Education, Dhanya Sharma has empowered over 50,000 students worldwide, creating measurable impact in medical education and healthcare leadership.
           </p>
         </div>
       </section>
@@ -268,7 +268,7 @@ export default function ImpactPage() {
             Be Part of Our <span className="text-[#ffe088] italic font-normal">Success Story</span>
           </h2>
           <p className="font-sans text-white/90 text-xl leading-[1.7] mb-10">
-            Join thousands of successful students who have transformed their medical careers with Dr. Dhanya Sharma's programs at Gyanam Education.
+            Join thousands of successful students who have transformed their medical careers with Dhanya Sharma's programs at Gyanam Education.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

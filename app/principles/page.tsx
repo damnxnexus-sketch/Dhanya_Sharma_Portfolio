@@ -165,7 +165,7 @@ export default function PrinciplesPage() {
             "Excellence in healthcare education is not about teaching what we know—it's about inspiring the pursuit of what we don't yet understand."
           </blockquote>
           <div className="flex flex-col items-center gap-2">
-            <p className="font-sans text-[#ffe088] text-lg font-semibold">Dr. Dhanya Sharma</p>
+            <p className="font-sans text-[#ffe088] text-lg font-semibold">Dhanya Sharma</p>
             <p className="font-sans text-white/70 text-sm tracking-[0.05em] uppercase">Founder & Educator</p>
           </div>
         </div>

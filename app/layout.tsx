@@ -19,13 +19,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://gyanam.net'),
   title: {
-    default: "Dr. Dhanya Sharma | Founder Gyanam Education | Top Medical Educator & Home Tuition Expert Delhi NCR",
-    template: "%s | Dr. Dhanya Sharma - Gyanam Education"
+    default: "Dhanya Sharma | Founder Gyanam Education | Top Medical Educator & Home Tuition Expert Delhi NCR",
+    template: "%s | Dhanya Sharma - Gyanam Education"
   },
-  description: "Dr. Dhanya Sharma - Founder & CEO of Gyanam Education (gyanam.net). India's #1 medical educator, NEET coach, USMLE expert. Best home tuition & coaching services in Delhi NCR, Gurgaon, Noida. 50,000+ students. MD, MBA. Trusted tutor platform.",
+  description: "Dhanya Sharma - Founder & CEO of Gyanam Education (gyanam.net). India's #1 medical educator, NEET coach, USMLE expert. Best home tuition & coaching services in Delhi NCR, Gurgaon, Noida. 50,000+ students. Trusted tutor platform.",
   keywords: [
     "Dhanya Sharma",
-    "Dr Dhanya Sharma",
+    "Dhanya Sharma",
     "Dhanya Sharma Gyanam",
     "Dhanya Sharma Gyanam Education",
     "Gyanam Education founder",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "trusted tutor platform",
     "medical education expert",
     "healthcare leadership India",
-    "MD MBA educator",
+    "educational entrepreneur",
     "clinical training expert",
     "medical exam preparation",
     "ed-tech India",
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     "Gyanam tuition services",
     "preferred coaching platform"
   ],
-  authors: [{ name: "Dr. Dhanya Sharma", url: "https://gyanam.net" }],
-  creator: "Dr. Dhanya Sharma",
+  authors: [{ name: "Dhanya Sharma", url: "https://gyanam.net" }],
+  creator: "Dhanya Sharma",
   publisher: "Gyanam Education",
   formatDetection: {
     email: false,
@@ -65,15 +65,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://gyanam.net",
-    siteName: "Dr. Dhanya Sharma - Gyanam Education",
-    title: "Dr. Dhanya Sharma | Founder Gyanam Education | Top Medical Educator India",
+    siteName: "Dhanya Sharma - Gyanam Education",
+    title: "Dhanya Sharma | Founder Gyanam Education | Top Medical Educator India",
     description: "India's leading medical educator & founder of Gyanam Education. 50,000+ students. Best home tuition & coaching in Delhi NCR, Gurgaon. NEET, USMLE expert. Trusted tutor platform.",
     images: [
       {
         url: "/dhanya.png",
         width: 1200,
         height: 630,
-        alt: "Dr. Dhanya Sharma - Founder of Gyanam Education",
+        alt: "Dhanya Sharma - Founder of Gyanam Education",
       },
     ],
   },
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@gyanameducation",
     creator: "@dhanyasharma",
-    title: "Dr. Dhanya Sharma | Founder Gyanam Education",
+    title: "Dhanya Sharma | Founder Gyanam Education",
     description: "India's top medical educator. Founder Gyanam Education (gyanam.net). 50,000+ students. Best home tuition & coaching Delhi NCR.",
     images: ["/dhanya.png"],
   },
@@ -117,21 +117,16 @@ export default function RootLayout({
       {
         "@type": "Person",
         "@id": "https://gyanam.net/#dhanya-sharma",
-        "name": "Dr. Dhanya Sharma",
-        "alternateName": ["Dhanya Sharma", "Dr Dhanya Sharma"],
+        "name": "Dhanya Sharma",
+        "alternateName": ["Dhanya Sharma", "Dhanya Sharma"],
         "jobTitle": "Founder & CEO",
-        "description": "Dr. Dhanya Sharma is the founder of Gyanam Education (gyanam.net), India's leading medical educator with 50,000+ students. Expert in NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR, Gurgaon, Noida. MD, MBA in Healthcare Leadership.",
+        "description": "Dhanya Sharma is the founder of Gyanam Education (gyanam.net), India's leading medical educator with 50,000+ students. Expert in NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR, Gurgaon, Noida. Founder & CEO in Healthcare Leadership.",
         "url": "https://gyanam.net",
         "image": "https://gyanam.net/dhanya.png",
         "worksFor": {
           "@id": "https://gyanam.net/#organization"
         },
         "alumniOf": [
-          {
-            "@type": "EducationalOrganization",
-            "name": "Medical College",
-            "degree": "Doctor of Medicine (MD)"
-          },
           {
             "@type": "EducationalOrganization",
             "name": "Business School",
@@ -238,7 +233,7 @@ export default function RootLayout({
           "Noida",
           "India"
         ],
-        "description": "Gyanam Education is India's leading medical education and tutor platform founded by Dr. Dhanya Sharma. Offering NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR with 50,000+ students.",
+        "description": "Gyanam Education is India's leading medical education and tutor platform founded by Dhanya Sharma. Offering NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR with 50,000+ students.",
         "serviceType": [
           "Medical Education",
           "NEET Coaching",
@@ -260,8 +255,8 @@ export default function RootLayout({
         "@type": "WebSite",
         "@id": "https://gyanam.net/#website",
         "url": "https://gyanam.net",
-        "name": "Dr. Dhanya Sharma - Gyanam Education",
-        "description": "Official website of Dr. Dhanya Sharma, Founder of Gyanam Education",
+        "name": "Dhanya Sharma - Gyanam Education",
+        "description": "Official website of Dhanya Sharma, Founder of Gyanam Education",
         "publisher": {
           "@id": "https://gyanam.net/#organization"
         },
@@ -277,7 +272,7 @@ export default function RootLayout({
         "url": "https://gyanam.net",
         "founder": {
           "@type": "Person",
-          "name": "Dr. Dhanya Sharma"
+          "name": "Dhanya Sharma"
         },
         "address": {
           "@type": "PostalAddress",

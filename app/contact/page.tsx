@@ -105,7 +105,7 @@ export default function ContactPage() {
             Start Your <span className="text-[#735c00] italic font-normal">Journey Today</span>
           </h1>
           <p className="font-sans text-[#414943] text-xl leading-[1.7] max-w-3xl mx-auto">
-            Have questions about our programs? Want to schedule a consultation with Dr. Dhanya Sharma? We're here to help you transform your medical career.
+            Have questions about our programs? Want to schedule a consultation with Dhanya Sharma? We're here to help you transform your medical career.
           </p>
         </div>
       </section>
@@ -296,7 +296,7 @@ export default function ContactPage() {
                   Connect With Us
                 </h3>
                 <p className="font-sans text-white/90 text-sm leading-[1.7] mb-6">
-                  Follow Dr. Dhanya Sharma and Gyanam Education on social media for updates, tips, and success stories.
+                  Follow Dhanya Sharma and Gyanam Education on social media for updates, tips, and success stories.
                 </p>
                 <div className="flex gap-3">
                   {[

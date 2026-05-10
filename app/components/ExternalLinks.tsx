@@ -18,7 +18,7 @@ export default function ExternalLinks() {
       title: "Best Home Tuition and Coaching Services in Delhi NCR",
       url: "https://dhanyaforgyanam.substack.com/p/best-home-tuition-and-coaching-services",
       platform: "Substack",
-      description: "Comprehensive guide to home tuition services by Dr. Dhanya Sharma"
+      description: "Comprehensive guide to home tuition services by Dhanya Sharma"
     },
     {
       title: "Why Gyanam Education is Becoming the Preferred Platform",
@@ -39,13 +39,13 @@ export default function ExternalLinks() {
       description: "The philosophy behind effective student success strategies"
     },
     {
-      title: "Dr. Dhanya Sharma on Medical Education Excellence",
+      title: "Dhanya Sharma on Medical Education Excellence",
       url: "https://qr.ae/pFvNAh",
       platform: "Quora",
       description: "Expert insights on medical education and NEET preparation"
     },
     {
-      title: "USMLE Preparation Strategies by Dr. Dhanya Sharma",
+      title: "USMLE Preparation Strategies by Dhanya Sharma",
       url: "https://qr.ae/pFvNHm",
       platform: "Quora",
       description: "Proven strategies for USMLE success from India's top educator"
@@ -54,7 +54,7 @@ export default function ExternalLinks() {
       title: "Home Tuition vs Coaching: Expert Analysis",
       url: "https://qr.ae/pFvNAR",
       platform: "Quora",
-      description: "Dr. Dhanya Sharma's perspective on choosing the right learning path"
+      description: "Dhanya Sharma's perspective on choosing the right learning path"
     },
   ];
 
@@ -66,10 +66,10 @@ export default function ExternalLinks() {
             Featured Content
           </div>
           <h2 className="font-serif text-[#1b1c1c] text-4xl lg:text-5xl font-semibold leading-[1.2] mb-6">
-            Dr. Dhanya Sharma <span className="text-[#735c00] italic font-normal">In The Media</span>
+            Dhanya Sharma <span className="text-[#735c00] italic font-normal">In The Media</span>
           </h2>
           <p className="font-sans text-[#414943] text-lg leading-[1.7] max-w-2xl mx-auto">
-            Read articles, insights, and success stories about Dr. Dhanya Sharma and Gyanam Education featured across leading platforms.
+            Read articles, insights, and success stories about Dhanya Sharma and Gyanam Education featured across leading platforms.
           </p>
         </div>
 
