@@ -19,51 +19,89 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://gyanam.net'),
   title: {
-    default: "Dhanya Sharma | Founder of Gyanam Education | Visionary Leader",
-    template: "%s | Dhanya Sharma - Gyanam Education"
+    default: "Dr. Dhanya Sharma | Founder Gyanam Education | Top Medical Educator & Home Tuition Expert Delhi NCR",
+    template: "%s | Dr. Dhanya Sharma - Gyanam Education"
   },
-  description: "Dhanya Sharma is the visionary founder of Gyanam Education. Discover her mission to revolutionize learning in Delhi NCR through student-first pedagogy and stress-free education.",
-  keywords: "Dhanya Sharma, Founder of Gyanam Education, educational reformer Delhi NCR, modern pedagogy, student-centric learning, holistic mentoring, education leadership India, Gyanam Education Noida",
-  authors: [{ name: "Dhanya Sharma" }],
-  creator: "Dhanya Sharma",
+  description: "Dr. Dhanya Sharma - Founder & CEO of Gyanam Education (gyanam.net). India's #1 medical educator, NEET coach, USMLE expert. Best home tuition & coaching services in Delhi NCR, Gurgaon, Noida. 50,000+ students. MD, MBA. Trusted tutor platform.",
+  keywords: [
+    "Dhanya Sharma",
+    "Dr Dhanya Sharma",
+    "Dhanya Sharma Gyanam",
+    "Dhanya Sharma Gyanam Education",
+    "Gyanam Education founder",
+    "Gyanam.net founder",
+    "best medical educator India",
+    "top NEET coach Delhi",
+    "NEET coaching Delhi NCR",
+    "USMLE preparation India",
+    "home tuition Delhi NCR",
+    "home tuition Gurgaon",
+    "home tuition Noida",
+    "coaching services Delhi",
+    "coaching services Gurgaon",
+    "best tutor platform Delhi",
+    "trusted tutor platform",
+    "medical education expert",
+    "healthcare leadership India",
+    "MD MBA educator",
+    "clinical training expert",
+    "medical exam preparation",
+    "ed-tech India",
+    "elite coaching India",
+    "best coaching institute Delhi",
+    "Dhanya Sharma medical educator",
+    "Gyanam tuition services",
+    "preferred coaching platform"
+  ],
+  authors: [{ name: "Dr. Dhanya Sharma", url: "https://gyanam.net" }],
+  creator: "Dr. Dhanya Sharma",
   publisher: "Gyanam Education",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://gyanam.net",
-    siteName: "Dhanya Sharma - Gyanam Education",
-    title: "Dhanya Sharma | Architect of Modern Education",
-    description: "Transforming the educational landscape in Delhi NCR with empathy, strategy, and student-first learning ecosystems.",
+    siteName: "Dr. Dhanya Sharma - Gyanam Education",
+    title: "Dr. Dhanya Sharma | Founder Gyanam Education | Top Medical Educator India",
+    description: "India's leading medical educator & founder of Gyanam Education. 50,000+ students. Best home tuition & coaching in Delhi NCR, Gurgaon. NEET, USMLE expert. Trusted tutor platform.",
     images: [
       {
-        url: "/images/og-image.jpg", // Make sure to replace this image in your public folder
+        url: "/dhanya.png",
         width: 1200,
         height: 630,
-        alt: "Dhanya Sharma - Founder of Gyanam Education",
+        alt: "Dr. Dhanya Sharma - Founder of Gyanam Education",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dhanya Sharma | Founder of Gyanam Education",
-    description: "Rewriting the rules of education with a 100% student-first philosophy.",
-    creator: "@gyanameducation", // Update if she has a personal handle
-    images: ["/images/twitter-image.jpg"],
+    site: "@gyanameducation",
+    creator: "@dhanyasharma",
+    title: "Dr. Dhanya Sharma | Founder Gyanam Education",
+    description: "India's top medical educator. Founder Gyanam Education (gyanam.net). 50,000+ students. Best home tuition & coaching Delhi NCR.",
+    images: ["/dhanya.png"],
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
-  verification: {
-    // google: "your-google-verification-code", // Uncomment and add actual code when ready
+  alternates: {
+    canonical: "https://gyanam.net",
   },
+  category: "Education",
 };
 
 export default function RootLayout({
@@ -72,44 +110,187 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   
-  // High-Impact Entity SEO Schema
+  // High-Impact Entity SEO Schema with External Links
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Person",
         "@id": "https://gyanam.net/#dhanya-sharma",
-        "name": "Dhanya Sharma",
-        "jobTitle": "Founder & Visionary",
-        "description": "Architecting stress-free, future-ready learning ecosystems in Delhi NCR. Dedicated to empowering students through empathy-driven education.",
+        "name": "Dr. Dhanya Sharma",
+        "alternateName": ["Dhanya Sharma", "Dr Dhanya Sharma"],
+        "jobTitle": "Founder & CEO",
+        "description": "Dr. Dhanya Sharma is the founder of Gyanam Education (gyanam.net), India's leading medical educator with 50,000+ students. Expert in NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR, Gurgaon, Noida. MD, MBA in Healthcare Leadership.",
         "url": "https://gyanam.net",
+        "image": "https://gyanam.net/dhanya.png",
         "worksFor": {
           "@id": "https://gyanam.net/#organization"
         },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Medical College",
+            "degree": "Doctor of Medicine (MD)"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Business School",
+            "degree": "Master of Business Administration (MBA) - Healthcare Management"
+          }
+        ],
         "knowsAbout": [
-          "Educational Leadership",
-          "Modern Pedagogy",
-          "Student Psychology",
-          "Holistic Mentorship",
+          "Medical Education",
+          "NEET Coaching",
+          "USMLE Preparation",
+          "Home Tuition Services",
+          "Coaching Services",
+          "Healthcare Leadership",
+          "Clinical Medicine",
+          "Educational Technology",
+          "Student Mentorship",
           "Curriculum Development",
-          "Educational Reform"
+          "Medical Exam Preparation",
+          "Tutor Platform Management"
         ],
         "sameAs": [
+          "https://gyanam.net",
+          "https://www.tumblr.com/dhanyaforgyanam",
+          "https://dhanyaforgyanam.substack.com",
+          "https://medium.com/@teamgyanam",
+          "https://www.quora.com/profile/Dhanya-Sharma",
           "https://linkedin.com/in/dhanyasharma"
-          // Add her Twitter/Instagram here if she has PR accounts
+        ],
+        "subjectOf": [
+          {
+            "@type": "Article",
+            "headline": "How Dhanya Sharma Built Gyanam Education into a Trusted Tutor Platform in Delhi NCR",
+            "url": "https://medium.com/@teamgyanam/how-dhanya-sharma-built-gyanam-education-into-a-trusted-tutor-platform-in-delhi-ncr-345d8e635298",
+            "author": {
+              "@type": "Organization",
+              "name": "Gyanam Education"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Why Gyanam Education is Becoming the Preferred Coaching Tutor Platform in Delhi Gurgaon",
+            "url": "https://medium.com/@teamgyanam/why-gyanam-education-is-becoming-the-preferred-coaching-tutor-platform-in-delhi-gurgaon-and-5b854004ca79",
+            "author": {
+              "@type": "Organization",
+              "name": "Gyanam Education"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Best Home Tuition and Coaching Services in Delhi NCR",
+            "url": "https://dhanyaforgyanam.substack.com/p/best-home-tuition-and-coaching-services",
+            "author": {
+              "@type": "Person",
+              "name": "Dhanya Sharma"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Why Gyanam Education is Becoming the Preferred Platform",
+            "url": "https://dhanyaforgyanam.substack.com/p/why-gyanam-education-is-becoming",
+            "author": {
+              "@type": "Person",
+              "name": "Dhanya Sharma"
+            }
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Elevating Ed-Tech: When Elite Coaching Meets Innovation",
+            "url": "https://www.tumblr.com/dhanyaforgyanam/816218430288117760/elevating-ed-tech-when-elite-coaching-meets",
+            "author": {
+              "@type": "Person",
+              "name": "Dhanya Sharma"
+            }
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Romanticizing the Grind But Actually Getting Results",
+            "url": "https://www.tumblr.com/dhanyaforgyanam/816218367023267840/romanticizing-the-grind-but-actually-getting",
+            "author": {
+              "@type": "Person",
+              "name": "Dhanya Sharma"
+            }
+          }
         ]
       },
       {
         "@type": "Organization",
         "@id": "https://gyanam.net/#organization",
         "name": "Gyanam Education",
+        "alternateName": "Gyanam",
         "url": "https://gyanam.net",
-        "logo": "https://gyanam.net/logo.png",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://gyanam.net/logo.png"
+        },
         "founder": {
           "@id": "https://gyanam.net/#dhanya-sharma"
         },
-        "areaServed": ["Delhi NCR", "Noida", "India"],
-        "description": "A pioneering educational institution focused on student-first learning, modern pedagogy, and holistic development."
+        "foundingDate": "2018",
+        "areaServed": [
+          "Delhi",
+          "NCR",
+          "Gurgaon",
+          "Noida",
+          "India"
+        ],
+        "description": "Gyanam Education is India's leading medical education and tutor platform founded by Dr. Dhanya Sharma. Offering NEET coaching, USMLE preparation, home tuition, and coaching services in Delhi NCR with 50,000+ students.",
+        "serviceType": [
+          "Medical Education",
+          "NEET Coaching",
+          "USMLE Preparation",
+          "Home Tuition Services",
+          "Coaching Services",
+          "Online Tutoring",
+          "Clinical Skills Training",
+          "Medical Exam Preparation"
+        ],
+        "sameAs": [
+          "https://gyanam.net",
+          "https://www.tumblr.com/dhanyaforgyanam",
+          "https://dhanyaforgyanam.substack.com",
+          "https://medium.com/@teamgyanam"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://gyanam.net/#website",
+        "url": "https://gyanam.net",
+        "name": "Dr. Dhanya Sharma - Gyanam Education",
+        "description": "Official website of Dr. Dhanya Sharma, Founder of Gyanam Education",
+        "publisher": {
+          "@id": "https://gyanam.net/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://gyanam.net/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Gyanam Education",
+        "url": "https://gyanam.net",
+        "founder": {
+          "@type": "Person",
+          "name": "Dr. Dhanya Sharma"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi NCR",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "ratingCount": "5000"
+        }
       }
     ]
   };

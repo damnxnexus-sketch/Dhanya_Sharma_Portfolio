@@ -3,6 +3,7 @@ import HeroSection from "./components/Hero";
 import EthosSection from "./components/About";
 import ImpactStatsSection from "./components/Stats";
 import VisionCTASection from "./components/Vision";
+import ExternalLinks from "./components/ExternalLinks";
 import Footer from "./components/Footer";
 import FounderProfileSection from "./components/Founder";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <EthosSection />
       <ImpactStatsSection />
       <FounderProfileSection />
+      <ExternalLinks />
       <VisionCTASection />
       <Footer />
     </div>
