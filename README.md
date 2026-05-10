@@ -121,12 +121,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the website.
 
 
 
-## 🤝 Contact
 
-- **Email**: dhanya@gyanameducation.com
-- **Website**: [gyanameducation.com](https://gyanameducation.com)
-- **LinkedIn**: [linkedin.com/in/dhanyasharma](https://linkedin.com/in/dhanyasharma)
-
----
 
 Built with ❤️ using Next.js and Tailwind CSS
